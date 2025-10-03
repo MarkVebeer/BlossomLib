@@ -1,6 +1,17 @@
+# 2.5.16
+
+* Update to support Minecraft 1.21.9
+* Fix compilation errors for Minecraft 1.21.9 with updated Yarn mappings
+* Update entity.getWorld() → entity.getEntityWorld() in Permissions.java
+* Update ServerPlayerEntity API method calls to work with new Yarn mappings
+* Update position retrieval to use getX(), getY(), getZ() methods
+* Update Fabric API (0.134.0) and Loader (0.17.2) versions for 1.21.9
+* Clean up supported versions to focus on 1.21.8 and 1.21.9
+
 # 2.5.15
 
-* Update to support 1.21.8
+* Update to support 1.21.9
+* Fix compilation errors for Minecraft 1.21.9 with updated Yarn mappings
 
 # 2.5.14
 
